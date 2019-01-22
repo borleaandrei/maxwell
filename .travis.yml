@@ -1,6 +1,6 @@
 language: java
 branches:
-  only: master
+  only: test_latin1_charset_change
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install pastebinit
